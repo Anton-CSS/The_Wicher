@@ -1,0 +1,355 @@
+@font-face {
+	font-family: 'MasonChronicles';
+	src: url('fonts/masonchronicles.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/masonchronicles.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/masonchronicles.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/masonchronicles.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/masonchronicles.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/masonchronicles.svg#masonchronicles') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color:#fff;
+    background-image: url("../img/background.jpg");
+    background-color:  #141218;
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    
+}
+.container{
+    width: 95%;
+    max-width: 1140px;
+    margin: auto;
+}
+.header{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.menu__list{
+    margin-right: auto;
+    margin-left: 67px;
+    
+}
+.menu__link{
+    margin-right: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.social__link{
+margin-left: 20px;
+text-decoration: none;
+}
+.genre{
+    animation-delay: 0.2s;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 16px;
+}
+.raiting{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    animation-delay: 0.4s;
+}
+.raiting__number{
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-left: 9px;
+}
+.title{
+font-family: 'MasonChronicles';
+font-size: 76px;
+line-height: 89px;
+color: #FFFFFF;
+margin-bottom: 10px;
+animation-delay: 0.6s;
+}
+.text{
+    max-width: 458px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 150%;
+    color:#fff;
+    animation-delay: 0.8s;
+}
+.button{
+    display: inline-block;
+    margin-top: 40px;
+    background: #9D2929;
+    border-radius: 8px;
+    color:#fff;
+    border: none;
+    padding: 22px 72px;
+    text-decoration: none;
+    animation-delay: 1s;
+}
+.button:active{
+    color:#fff;
+}
+.play{
+    width: 100px;
+    height: 100px;
+    background: #9D2929;
+    border-radius: 50%;
+    border:none;
+    position: relative;
+    margin: auto;
+}
+.play:before{
+content:"";
+display: block;
+width: 132px;
+height: 132px;
+border-radius: 50%;
+background-color: rgba(157, 41, 41, 0.5);
+position: absolute;
+left: -16px;
+top:-16px;
+animation: pulse 1s ease-in-out infinite;
+}
+.play__img{
+    position: relative;
+    transform: translateX(5px);
+}
+.main__conetent{
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.card{
+    width: 164px;
+    height: 113px;
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 13px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.card__suptitle{
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 2px;
+}
+.card__title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.series{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    max-width: 420px;
+    position: relative;
+}
+.serius-1{
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/card-serius1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.serius-2{
+    background-image: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/card-serius2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.serius-3{
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-3-seriya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.serius-4{
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-4-seriya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.serius-5{
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-5-seriya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.serius-6{
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-6-seriya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.serius-7{
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-7-seriya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.serius-8{
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-8-seriya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.arrow{
+    width: 32px;
+    height: 23px;
+    border: none;
+    background:url("../img/arrow.svg") no-repeat center;
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    right: -32px;
+
+}
+footer{
+    background:#141218;
+    padding: 20px 0;
+    margin-top: auto;
+}
+.footer__contenet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color:#3A383D;
+    margin-left: 25px;
+}
+.copy{
+    color:#3A383D;
+}
+.swiper-container{
+    max-width: 420px;
+    margin-left: 0;
+}
+.swiper-slide{
+margin-left: 0;
+}
+.btn{
+    display: none;
+}
+@media (max-width: 760px){
+.play{
+    display: none;
+}
+.footer__contenet{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.copy{
+    margin-bottom: 8px;
+    display: block;
+}
+.footer__link:first-child{
+    margin-left: 0;
+}
+}
+@media (max-width: 530px){
+.btn{
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    right: 35px;
+    top:40px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.btn::before{
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin-top: -7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.2s linear;
+}
+.btn::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin-top: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.2s linear;
+}
+.btn-active{
+height: 0;
+}
+.btn-active::before{
+transform: rotate(45deg);
+margin-top: 0;
+}
+.btn-active::after{
+transform: rotate(-45deg); 
+margin-top: 0;
+}
+.header{
+    display: none;
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: #9D2929;
+    flex-direction: column;
+    width: 250px;
+}
+.header-active{
+    display: flex;
+}
+.logo{
+    margin-bottom: 25px;
+}
+.social{
+    order: 1;
+    margin-bottom: 22px;
+}
+.menu__list{
+    margin: auto;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.menu__link{
+    margin-right: 0;
+    margin-bottom: 17px;
+}
+.social__link:first-child{
+    margin-left: 0;
+}
+.swiper-container{
+    width: 80%;
+}
+.main__conetent{
+    margin-top: 196px;
+}
+.title{
+    font-size: 56px;
+}
+.series{
+    width: 80%;
+}
+}
