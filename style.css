@@ -13,7 +13,7 @@ body{
     font-style: normal;
     font-weight: normal;
     color:#fff;
-    background-image: url("../img/background.jpg");
+    background-image: url("background.jpg");
     background-color:  #141218;
     background-repeat: no-repeat;
     background-position: top right 20%;
@@ -156,49 +156,49 @@ animation: pulse 1s ease-in-out infinite;
     position: relative;
 }
 .serius-1{
-    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/card-serius1.jpg);
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(card-serius1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .serius-2{
-    background-image: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/card-serius2.jpg);
+    background-image: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(card-serius2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .serius-3{
-    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-3-seriya.jpg);
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(1-sezon-3-seriya.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .serius-4{
-    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-4-seriya.jpg);
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(1-sezon-4-seriya.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .serius-5{
-    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-5-seriya.jpg);
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(1-sezon-5-seriya.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .serius-6{
-    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-6-seriya.jpg);
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(1-sezon-6-seriya.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .serius-7{
-    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-7-seriya.jpg);
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(1-sezon-7-seriya.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .serius-8{
-    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/1-sezon-8-seriya.jpg);
+    background-image:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(1-sezon-8-seriya.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -207,7 +207,7 @@ animation: pulse 1s ease-in-out infinite;
     width: 32px;
     height: 23px;
     border: none;
-    background:url("../img/arrow.svg") no-repeat center;
+    background:url("arrow.svg") no-repeat center;
     background-color: transparent;
     position: absolute;
     top:50%;
